@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/monks-react/static/css/main.681e493a.chunk.css",
-    "main.js": "/monks-react/static/js/main.7cf8180f.chunk.js",
-    "main.js.map": "/monks-react/static/js/main.7cf8180f.chunk.js.map",
-    "runtime-main.js": "/monks-react/static/js/runtime-main.b921627d.js",
-    "runtime-main.js.map": "/monks-react/static/js/runtime-main.b921627d.js.map",
-    "static/js/2.63d15bb9.chunk.js": "/monks-react/static/js/2.63d15bb9.chunk.js",
-    "static/js/2.63d15bb9.chunk.js.map": "/monks-react/static/js/2.63d15bb9.chunk.js.map",
-    "static/js/3.894962e5.chunk.js": "/monks-react/static/js/3.894962e5.chunk.js",
-    "static/js/3.894962e5.chunk.js.map": "/monks-react/static/js/3.894962e5.chunk.js.map",
-    "index.html": "/monks-react/index.html",
-    "static/css/main.681e493a.chunk.css.map": "/monks-react/static/css/main.681e493a.chunk.css.map",
-    "static/js/2.63d15bb9.chunk.js.LICENSE.txt": "/monks-react/static/js/2.63d15bb9.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.681e493a.chunk.css",
+    "main.js": "/static/js/main.7cf8180f.chunk.js",
+    "main.js.map": "/static/js/main.7cf8180f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83f007ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83f007ea.js.map",
+    "static/js/2.63d15bb9.chunk.js": "/static/js/2.63d15bb9.chunk.js",
+    "static/js/2.63d15bb9.chunk.js.map": "/static/js/2.63d15bb9.chunk.js.map",
+    "static/js/3.894962e5.chunk.js": "/static/js/3.894962e5.chunk.js",
+    "static/js/3.894962e5.chunk.js.map": "/static/js/3.894962e5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.681e493a.chunk.css.map": "/static/css/main.681e493a.chunk.css.map",
+    "static/js/2.63d15bb9.chunk.js.LICENSE.txt": "/static/js/2.63d15bb9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b921627d.js",
+    "static/js/runtime-main.83f007ea.js",
     "static/js/2.63d15bb9.chunk.js",
     "static/css/main.681e493a.chunk.css",
     "static/js/main.7cf8180f.chunk.js"
