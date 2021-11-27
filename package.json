@@ -1,6 +1,6 @@
 {
   "name": "monks-react",
-  "homepage": "https://nervousmonks.com",
+  "homepage": "nervousmonks.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
