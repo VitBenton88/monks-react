@@ -1,9 +1,27 @@
 $black: black;
 $coral:#ff6f69;
 $grey: #b0b0b0;
+$purple: #4d4dff;
 $lightyellow:#ffeead;
 $turquoise: #b3ecec;
 $white: white;
+
+$neon_green: 0 0 1px #fff,
+0 0 3px #fff,
+0 0 5px #fff,
+0 0 8px #0fa,
+0 0 12px #0fa,
+0 0 15px #0fa,
+0 0 20px #0fa,
+0 0 30px #0fa;
+$neon_purple: 0 0 1px #fff,
+0 0 3px #d6d6ff,
+0 0 5px #c3c3ff,
+0 0 8px #9b9bff,
+0 0 12px #8888ff,
+0 0 15px #7474ff,
+0 0 20px #6161ff,
+0 0 30px $purple;
 
 $bandcampGreen: #629aa9;
 $facebookBlue: #3b5998;

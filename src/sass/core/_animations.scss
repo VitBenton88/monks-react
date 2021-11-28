@@ -1,0 +1,28 @@
+@keyframes bkg_to_black {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: $black;
+    }
+}
+
+@keyframes text_to_neon {
+    from {
+        color: $black;
+        text-shadow: none;
+    }
+    to {
+        color: #fff;
+        text-shadow: $neon_purple;
+    }
+}
+
+@keyframes border_to_neon {
+    from {
+        box-shadow: none;
+    }
+    to {
+        box-shadow: $neon_purple;
+    }
+}
