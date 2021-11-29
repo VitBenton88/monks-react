@@ -2,9 +2,11 @@ import './sass/style.scss'
 import Particles from './components/Particles'
 import Social from './components/Social'
 import YoutubeEmbed from './components/YoutubeEmbed'
+import Vortex from './components/Vortex'
 import Orb from './components/Orb'
 import RedLogo from './logo-red.png'
 import NormalLogo from './logo-regular.png'
+import VortexLogo from './logo-vortex.png'
 
 function App() {
 	const header_text = "Nervous Monks"
@@ -28,7 +30,12 @@ function App() {
 			name: "red",
 			element: <Orb />,
 			header: <img className="nm-logo" src={RedLogo} alt={header_text} />
-		}
+		},
+		{
+			name: "vortex",
+			element: <Vortex />,
+			header: <img className="nm-logo" src={VortexLogo} alt={header_text} />
+		},
 	]
 
 	const {header, name, element} = themes[Math.floor(Math.random() * themes.length)];

@@ -1,11 +1,11 @@
 .App {
-    &.neon, &.red {
+    &.neon, &.red, &.vortex {
         background-color: $black;
         position: relative;
         z-index: 1;
     }
 
-    &.regular, &.red {
+    &.regular, &.red, &.vortex  {
         img.nm-logo {
             max-width: 100%;
             position: relative;
@@ -16,6 +16,12 @@
 
     &.red, &.eighties {
         overflow: hidden;
+    }
+
+    &.vortex, &.neon {
+        h1, h2, h3, h4, h5, a, p, i, span, li {
+            color: $white !important;
+        }
     }
 
     &.red {
@@ -81,7 +87,6 @@
 
     &.neon {
         h1, h2, h3, h4, h5, a, p, i, span, li {
-            color: $white !important;
             text-shadow: $neon_purple;
         }
 
