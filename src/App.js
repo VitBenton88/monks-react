@@ -8,34 +8,27 @@ import NormalLogo from './logo-regular.png'
 
 function App() {
 	const header_text = "Nervous Monks"
-	// const themes = [
-	// 	{
-	// 		name: 'regular',
-	// 		element: null,
-	// 		header: <img className="nm-logo" src={NormalLogo} alt={header_text} />
-	// 	},
-	// 	{	
-	// 		name: 'neon',
-	// 		element: <Particles />,
-	// 		header: <h1>{header_text}</h1>
-	// 	},
-	// 	{	
-	// 		name: 'eighties',
-	// 		element: null,
-	// 		header: <h1>{header_text}</h1>
-	// 	},
-	// 	{
-	// 		name: "red",
-	// 		element: <Orb />,
-	// 		header: <img className="nm-logo" src={RedLogo} alt={header_text} />
-	// 	}
-	// ]
 	const themes = [
+		{
+			name: 'regular',
+			element: null,
+			header: <img className="nm-logo" src={NormalLogo} alt={header_text} />
+		},
+		{	
+			name: 'neon',
+			element: <Particles />,
+			header: <h1>{header_text}</h1>
+		},
 		{	
 			name: 'eighties',
 			element: null,
 			header: <h1>{header_text}</h1>
 		},
+		{
+			name: "red",
+			element: <Orb />,
+			header: <img className="nm-logo" src={RedLogo} alt={header_text} />
+		}
 	]
 
 	const {header, name, element} = themes[Math.floor(Math.random() * themes.length)];
