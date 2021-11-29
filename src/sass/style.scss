@@ -2,7 +2,6 @@
 @import "core/colors";
 @import "core/grid";
 @import 'core/mixins';
-@import 'core/animations';
 
 /* LIBRARIS */
 @import "libraries/bootstrap-grid.min.scss";
@@ -21,6 +20,7 @@
 @import "components/media";
 @import "components/messages";
 @import "components/modals";
+@import "components/red-particles";
 @import "components/shows";
 @import "components/social";
 
@@ -29,3 +29,4 @@
 
 /* PAGES */
 @import "pages/home";
+@import "pages/themes";

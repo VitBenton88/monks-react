@@ -1,0 +1,35 @@
+.App {
+    &.neon, &.red {
+        background-color: $black;
+        position: relative;
+        z-index: 1;
+    }
+
+    &.regular, &.red {
+        img.nm-logo {
+            max-width: 100%;
+            width: 400px;
+        }
+    }
+
+    &.red {
+        h1, h2, h3, h4, h5, a, p, i, span, li {
+            color: $coral !important;
+        }
+
+        iframe {
+            border: 2px solid $coral;
+        }
+    }
+
+    &.neon {
+        h1, h2, h3, h4, h5, a, p, i, span, li {
+            color: $white !important;
+            text-shadow: $neon_purple;
+        }
+
+        iframe {
+            box-shadow: $neon_purple;
+        }
+    }
+}

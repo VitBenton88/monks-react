@@ -2,15 +2,39 @@ import './sass/style.scss'
 import Particles from './components/Particles'
 import Social from './components/Social'
 import YoutubeEmbed from './components/YoutubeEmbed'
+import Orb from './components/Orb'
+import RedLogo from './logo-red.png'
+import NormalLogo from './logo-regular.png'
 
 function App() {
+	const header_text = "Nervous Monks"
+	const themes = [
+		{
+			name: 'regular',
+			element: null,
+			header: <img className="nm-logo" src={NormalLogo} alt={header_text} />
+		},
+		{	
+			name: 'neon',
+			element: <Particles />,
+			header: <h1>{header_text}</h1>
+		},
+		{
+			name: "red",
+			element: <Orb />,
+			header: <img className="nm-logo" src={RedLogo} alt={header_text} />
+		}
+	]
+
+	const {header, name, element} = themes[Math.floor(Math.random() * themes.length)];
+
 	return (
-		<div id="home" className="App">
-			<Particles />
+		<div id="home" className={`App ${name}`}>
+			{element}
 			<nav className="container">
-				<h1 className="to-neon">Nervous Monks</h1>
+				{header}
 				<Social />
-				<h2 className="contact"><a className="to-neon" href="mailto:nervousmonks@gmail.com">Contact</a></h2>
+				<h2 className="contact"><a href="mailto:nervousmonks@gmail.com">Contact</a></h2>
 			</nav>
 			<section className="container media youtube music-video mt-5">
 				<div className="row">

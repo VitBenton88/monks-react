@@ -22,7 +22,7 @@ function Social() {
         },
       ]
 
-      const renderSocialIcon = ({href, icon}) => <li key={icon} className="d-inline-block"><a href={href} target="_blank" rel="noreferrer"><i className={`fab ${icon} to-neon`}></i></a></li>
+      const renderSocialIcon = ({href, icon}) => <li key={icon} className="d-inline-block"><a href={href} target="_blank" rel="noreferrer"><i className={`fab ${icon}`}></i></a></li>
 
     return ( 
         <ul id="social">

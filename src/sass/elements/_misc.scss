@@ -6,11 +6,10 @@ hr {
     width: 100%;
 }
 
-html {
-    animation: bkg_to_black .5s $neon_delay forwards;
-    background-color: transparent;
+body {
+    margin: 0;
 }
 
-iframe {
-    animation: border_to_neon .5s $neon_delay forwards;
+img {
+    max-width: 100%;
 }

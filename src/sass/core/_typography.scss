@@ -11,7 +11,3 @@ a {
 a, p, span, li, label, h1, h2, h3, h4, h5 {
     font-display: swap;
 }
-
-.to-neon {
-    animation: text_to_neon .5s $neon_delay forwards;
-}
