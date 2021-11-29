@@ -8,11 +8,15 @@
     &.regular, &.red {
         img.nm-logo {
             max-width: 100%;
+            position: relative;
             width: 400px;
+            z-index: 5;
         }
     }
 
     &.red {
+        overflow: hidden;
+
         h1, h2, h3, h4, h5, a, p, i, span, li {
             color: $coral !important;
         }
