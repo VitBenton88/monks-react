@@ -7,6 +7,8 @@ import Orb from './components/Orb'
 import RedLogo from './logo-red.png'
 import NormalLogo from './logo-regular.png'
 import VortexLogo from './logo-vortex.png'
+import TrippyLogo from './logo-trippy.png'
+import Trippy from './components/Trippy'
 
 function App() {
 	const header_text = "Nervous Monks"
@@ -25,6 +27,11 @@ function App() {
 			name: 'eighties',
 			element: null,
 			header: <h1>{header_text}</h1>
+		},
+		{
+			name: "trippy",
+			element: <Trippy />,
+			header: <img className="nm-logo" src={TrippyLogo} alt={header_text} />
 		},
 		{
 			name: "red",

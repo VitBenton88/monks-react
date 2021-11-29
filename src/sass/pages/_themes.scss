@@ -16,7 +16,7 @@
         }
     }
 
-    &.vortex, &.neon {
+    &.vortex, &.neon, &.trippy {
         h1, h2, h3, h4, h5, a, p, i, span, li {
             color: $white !important;
         }
@@ -37,15 +37,6 @@
         background-position: center;
         background-size: cover;
         padding-top: 50px;
-
-        @keyframes grow_eighties_header {
-            from {
-                transform: skew(-15deg,-15deg) scale(0)
-            }
-            to {
-                transform: skew(-15deg,-15deg) scale(1)
-            }
-        }
 
         h1, #social i {
             background-image: -webkit-linear-gradient($pink 0%,  $light_pink 100%);
@@ -90,6 +81,57 @@
 
         iframe {
             box-shadow: $neon_purple;
+        }
+    }
+
+    &.vortex {
+        img.nm-logo {
+            animation: pulsate 4s infinite;
+        }
+    }
+
+    &.trippy {
+        h2 a, #social li {
+            background: $black;
+
+            &, i {
+                color: $dark_pink !important;
+                transition: .3s;
+            }
+
+            &:hover {
+                background: $yellow;
+            }
+        }
+
+        h2 a {
+            border-radius: 10px;
+            color: $dark_pink !important;
+            font-family: 'Monoton', cursive;
+            font-size: 45px;
+            padding: 0 20px;
+            text-decoration: none !important;
+
+            &:hover {
+                background: $yellow;
+            }
+        }
+
+        #social li {
+            padding: 11px;
+            background: $black;
+            border-radius: 100%;
+
+            &:not(:last-of-type) {
+                @include min-width($screen-sm-min) {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        img.nm-logo {
+            max-width: 100%;
+            width: 600px;
         }
     }
 }
