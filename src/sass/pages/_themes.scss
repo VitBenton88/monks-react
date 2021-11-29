@@ -1,4 +1,6 @@
 .App {
+    overflow: hidden;
+    
     &.neon, &.red, &.vortex {
         background-color: $black;
         position: relative;
@@ -12,10 +14,6 @@
             width: 400px;
             z-index: 5;
         }
-    }
-
-    &.red, &.eighties {
-        overflow: hidden;
     }
 
     &.vortex, &.neon {
