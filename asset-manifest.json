@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.837680a8.chunk.css",
-    "main.js": "/static/js/main.aa14a7cb.chunk.js",
-    "main.js.map": "/static/js/main.aa14a7cb.chunk.js.map",
+    "main.css": "/static/css/main.3fc327ff.chunk.css",
+    "main.js": "/static/js/main.53824209.chunk.js",
+    "main.js.map": "/static/js/main.53824209.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3207474f.js",
     "runtime-main.js.map": "/static/js/runtime-main.3207474f.js.map",
     "static/js/2.e853bd89.chunk.js": "/static/js/2.e853bd89.chunk.js",
@@ -10,16 +10,17 @@
     "static/js/3.0989397d.chunk.js": "/static/js/3.0989397d.chunk.js",
     "static/js/3.0989397d.chunk.js.map": "/static/js/3.0989397d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.837680a8.chunk.css.map": "/static/css/main.837680a8.chunk.css.map",
+    "static/css/main.3fc327ff.chunk.css.map": "/static/css/main.3fc327ff.chunk.css.map",
     "static/js/2.e853bd89.chunk.js.LICENSE.txt": "/static/js/2.e853bd89.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/eighties.242e0c6d.jpeg",
     "static/media/logo-red.4c34478d.png": "/static/media/logo-red.4c34478d.png",
-    "static/media/logo-regular.494a582c.png": "/static/media/logo-regular.494a582c.png"
+    "static/media/logo-regular.494a582c.png": "/static/media/logo-regular.494a582c.png",
+    "static/media/logo-vortex.773c98b8.png": "/static/media/logo-vortex.773c98b8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3207474f.js",
     "static/js/2.e853bd89.chunk.js",
-    "static/css/main.837680a8.chunk.css",
-    "static/js/main.aa14a7cb.chunk.js"
+    "static/css/main.3fc327ff.chunk.css",
+    "static/js/main.53824209.chunk.js"
   ]
 }
