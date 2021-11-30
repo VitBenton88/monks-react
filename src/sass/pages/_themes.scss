@@ -1,5 +1,6 @@
 .App {
     overflow: hidden;
+    min-height: 100vh;
     
     &.neon, &.red, &.vortex {
         background-color: $black;
@@ -20,6 +21,10 @@
         h1, h2, h3, h4, h5, a, p, i, span, li {
             color: $white !important;
         }
+    }
+
+    &.neon, &.trippy {
+        position: relative;
     }
 
     &.red {
@@ -95,8 +100,6 @@
     }
 
     &.trippy {
-        position: relative;
-        
         h2 a, #social li {
             background: $black;
 
