@@ -95,6 +95,8 @@
     }
 
     &.trippy {
+        position: relative;
+        
         h2 a, #social li {
             background: $black;
 
