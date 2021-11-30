@@ -29,22 +29,22 @@
 
             &.fa-facebook {
                 &:hover {
-                    color: $facebookBlue;
+                    color: $facebookBlue !important;
                 }
             }
             &.fa-bandcamp {
                 &:hover {
-                    color: $bandcampGreen;
+                    color: $bandcampGreen !important;
                 }
             }
             &.fa-soundcloud {
                 &:hover {
-                    color: $soundcloudOrange;
+                    color: $soundcloudOrange !important;
                 }
             }
             &.fa-instagram {
                 &:hover {
-                    color: $instagramPurple;
+                    color: $instagramPurple !important;
                 }
             }
         }

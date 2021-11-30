@@ -80,6 +80,14 @@
             @include min-width($screen-md-min) {
                 margin-top: 100px;
             }
+
+            i {
+                transition: .3s;
+
+                &:hover {
+                    background-image: -webkit-linear-gradient($light_pink 0%,  $pink 100%);
+                }
+            }
         }
     }
 
