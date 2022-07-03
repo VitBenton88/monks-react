@@ -53,7 +53,8 @@ function App() {
 			<nav className="container">
 				{header}
 				<Social />
-				<h2 className="contact"><a href="mailto:nervousmonks@gmail.com">Contact</a></h2>
+				<h2 className="cta"><a href="mailto:nervousmonks@gmail.com">Contact</a></h2>
+				<h2 className="cta"><a href="https://www.teepublic.com/user/nervous-monks" target="_blank" rel="noreferrer">Merchandise</a></h2>
 			</nav>
 			<section className="container media youtube music-video mt-5">
 				<div className="row">
