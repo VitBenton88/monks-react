@@ -144,6 +144,12 @@
                     margin-right: 10px;
                 }
             }
+            
+            i {
+                @include max-width($screen-sm-max) {
+                    font-size: 26px;
+                }
+            }
         }
 
         img.nm-logo {
