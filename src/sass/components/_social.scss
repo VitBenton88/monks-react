@@ -27,21 +27,42 @@
                 font-size: 40px;
             }
 
+            &.fa-youtube {
+                &:hover {
+                    color: $youtubeRed !important;
+                }
+            }
+
+            &.fa-spotify {
+                &:hover {
+                    color: $spotifyGreen !important;
+                }
+            }
+
+            &.fa-apple {
+                &:hover {
+                    color: $appleMusicRed !important;
+                }
+            }
+
             &.fa-facebook {
                 &:hover {
                     color: $facebookBlue !important;
                 }
             }
+            
             &.fa-bandcamp {
                 &:hover {
                     color: $bandcampGreen !important;
                 }
             }
+            
             &.fa-soundcloud {
                 &:hover {
                     color: $soundcloudOrange !important;
                 }
             }
+                
             &.fa-instagram {
                 &:hover {
                     color: $instagramPurple !important;
